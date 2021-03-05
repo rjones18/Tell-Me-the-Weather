@@ -7,7 +7,7 @@ import geocode
 import requests
 ```
 
-I obtained my weather API from [OpenWeather](https://openweathermap.org/). This API obtains the current weather based on latitude-longitude coordinates. This API is free to use and all you have to do to obtain it is to make a account on OpenWeather's website. From this website is where I obtained my API Key. For security purposes I have removed the API Key from my code.
+I obtained my weather API from [OpenWeather](https://openweathermap.org/). This API obtains the current weather based on latitude-longitude coordinates. This API is free to use and all you have to do to obtain it is to make a account on OpenWeather's website. From this website is where I obtained my API Key. For security purposes I have removed the API Key from my code and replaced it with "XXXXXXX".
 
 Below is my final code:
 
