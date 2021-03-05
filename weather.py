@@ -3,7 +3,7 @@ import requests
 
 #You would put your API Key below
 API_KEY = 'XXXXXXXXXXX'
-API_BASE_URL = f'https://api.openweathermap.org/data/2.5/weather?units=imperial&appid='  #<---- You would put your API Key here as well.
+API_BASE_URL = f'https://api.openweathermap.org/data/2.5/weather?units=imperial&appid='  #<---- You would put your API Key in this string right next to "appid=" .
 
 def main():
   destinations = destinations = [geocoder.arcgis('Atlanta,Georgia'), geocoder.arcgis('Sandy Springs, Georgia'),  geocoder.arcgis('Birmingham, AL'), geocoder.arcgis('Yosemite National Park'), geocoder.arcgis('Las Vegas, Nevada'), geocoder.arcgis('Grand Canyon National Park'), geocoder.arcgis('Aspen, Colorado'), geocoder.arcgis('Mount Rushmore'), geocoder.arcgis('Yellowstone National Park'), geocoder.arcgis('Sandpoint, Idaho'), geocoder.arcgis('Banff National Park'), geocoder.arcgis('Capilano Suspension Bridge')]
