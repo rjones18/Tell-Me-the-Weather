@@ -2,8 +2,8 @@ import geocoder
 import requests
 
 
-API_KEY = '7dbfc749e5b0bd55b69da4444fbdda60'
-API_BASE_URL = f'https://api.openweathermap.org/data/2.5/weather?units=imperial&appid=7dbfc749e5b0bd55b69da4444fbdda60'
+API_KEY = ''
+API_BASE_URL = f'https://api.openweathermap.org/data/2.5/weather?units=imperial&appid='
 
 def main():
   destinations = destinations = [geocoder.arcgis('Atlanta,Georgia'), geocoder.arcgis('Sandy Springs, Georgia'),  geocoder.arcgis('Birmingham, AL'), geocoder.arcgis('Yosemite National Park'), geocoder.arcgis('Las Vegas, Nevada'), geocoder.arcgis('Grand Canyon National Park'), geocoder.arcgis('Aspen, Colorado'), geocoder.arcgis('Mount Rushmore'), geocoder.arcgis('Yellowstone National Park'), geocoder.arcgis('Sandpoint, Idaho'), geocoder.arcgis('Banff National Park'), geocoder.arcgis('Capilano Suspension Bridge')]
