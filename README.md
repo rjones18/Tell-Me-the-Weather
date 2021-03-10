@@ -1,6 +1,6 @@
 # Weatherman
 
-This code if run alows the user to get the weather of any desired place from around the world. I did this by first importing the `geocoder` and `requests` librarys into my python code. 
+This code if run alows the user to get the weather of any desired place from around the world. I did this by first importing the `geocoder` and `requests` libraries into my python code. 
 
 ```
 import geocoder
